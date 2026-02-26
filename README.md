@@ -2,10 +2,8 @@ This project implements a Genetic Algorithm (GA) from scratch to perform cluster
 
 Unlike traditional clustering methods like K-Means, this approach uses evolutionary strategies—such as mutation and crossover—to minimize the intra-cluster distance and find the optimal labels for each data point.
 
-📌 Project Overview
+## 📌 Project Overview
         The goal is to partition 150 Iris flower samples into $K$ clusters (specifically $K=3$ for the three species) by evolving a population of potential solutions (chromosomes).
-        
-
         Key Components:
         
                 Chromosome Representation:
@@ -22,3 +20,5 @@ Unlike traditional clustering methods like K-Means, this approach uses evolution
                         
                 Accuracy Mapping: 
                         Since clustering is unsupervised, the code includes a mapping function to align discovered clusters with the actual species labels for accuracy evaluation.
+
+
